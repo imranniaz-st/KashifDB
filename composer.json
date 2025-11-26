@@ -1,0 +1,28 @@
+{
+    "name": "kashifbd/kashifbd",
+    "description": "A Laravel package by Kashif",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kashif Niaz",
+            "email": "your-email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KashifBD\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KashifBD\\KashifBDServiceProvider"
+            ]
+        }
+    }
+}
